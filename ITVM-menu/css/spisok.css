@@ -1,0 +1,84 @@
+﻿@import "fonts.css";
+
+    
+    #demo .wrapper {
+        display: inline-block;
+        width: 90%;
+        margin: 0 10px 0 0;
+        height: 5%;
+        position: relative;
+    }
+
+#demo .wrapper:hover{
+border-bottom: 3px solid #0056b8;;
+width: 60%;
+}
+
+    
+
+
+
+   #demo .content {
+    position: absolute;
+    top: 0;
+    display: block;
+    z-index: 1;
+    height: 0;
+    width: 250px;
+    padding-top: 30px;
+    -webkit-transition-delay: .2s;
+        -webkit-transition: height 1.5s ease;
+}
+    
+    #demo .wrapper:active .content {
+        height: 153px;
+        z-index: 3;
+        -webkit-transition-delay: 0s;
+    }
+    
+    #demo .content:hover {
+        height: 153px;
+        z-index: 3;
+        -webkit-transition-delay: 0s;
+    }
+
+
+   
+    #demo .content ul {
+        background: black;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-top: 50px;
+
+    }
+    
+    #demo .content ul a {
+        text-decoration: none;
+    }
+    
+    #demo .content li:hover {
+        background: black;
+        color: white;
+    }
+    
+    #demo .content li {
+        list-style: none;
+        text-align: left;
+        color: white;
+        font-size: 14px;
+        line-height: 30px;
+        padding-bottom: 15px;
+        height: 45px;
+        padding-left: 10px;
+        color: #ffffff;
+font-size: 20px;
+font-weight: 300;
+text-transform: uppercase;
+/* Text style for "w, ebsites" */
+letter-spacing: 1.2px;
+    }
+

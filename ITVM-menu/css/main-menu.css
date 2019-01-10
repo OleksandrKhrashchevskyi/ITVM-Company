@@ -1,0 +1,652 @@
+@import "fonts.css";
+
+
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5,
+ .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10,
+  .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+   .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10,
+    .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
+    .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10,
+     .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, 
+     .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, 
+     .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, 
+     .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
+}
+
+
+
+
+
+
+.main-menu{
+	border: solid 2px black;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.menu-global{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.menu-exit{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    cursor: pointer;
+    /* float: right; */
+    margin-top: 10%;
+    margin-left: 90%;
+}
+
+.menu-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45%;
+}
+
+.main01, .gases02, .services03, .contactas04{
+	display: flex;
+	flex-direction: row;
+text-align: center;
+line-height: 4.5em;
+margin-left: 24%;
+white-space: pre;
+color: black;
+
+}
+
+.main01:hover, .gases02:hover, .services03:hover, .contactas04:hover{
+	color: blue;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+}
+
+
+
+.bug{
+	color: black;
+	padding: 0px 0px 0px 0px;
+	font-family: "Trump Gothic West";
+font-size: 44px;
+}
+
+.bug:hover{
+	color: blue
+}
+
+.name-number a{
+	text-decoration: none !important;
+}
+
+
+
+
+
+
+
+.main-number 
+{
+margin-top: 2%;
+ color: black !important;
+ text-decoration: none;
+ }
+
+
+.name-number
+{
+margin-left: 5%;
+font-size: 38px;
+color: black !important;
+ text-decoration: none;
+font: normal; 
+    padding: 0px 0px 0px 0px; 
+    text-align: center;
+    text-decoration: none; 
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none; 
+    white-space: pre;
+    font-family: "Trump Gothic West";
+}
+
+
+
+.first-div{
+	white-space: pre;
+}
+
+
+.main-number:hover, .name-number:hover{
+
+}
+
+
+
+
+.end-main-menu{
+	margin-bottom: 39%;
+}
+
+
+.navbar-info{
+	display: flex;
+	flex-direction: row;
+}
+
+.vertical-info {
+    transform: rotate(270deg);
+    margin-top: 379px;
+    font-size: 30px;
+    /* margin-left: 71%; */
+    /* float: right; */
+    margin-left: 42px;
+    color: #101010;
+font-family: "Trump Gothic West";
+font-size: 36px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "m, enu" */
+letter-spacing: 7.2px;
+}
+
+
+
+
+
+
+
+
+
+.menu-about{
+background: black;
+height: 100%;
+}
+
+.menu-right-part{
+	display: flex;
+	flex-direction: column;
+	margin-top: 35%;
+}
+
+
+
+.active-first-line{
+	display: flex;
+	flex-direction: column;
+	margin-left: calc(97% - 75px);
+	margin-top: calc(21% - 3px);
+}
+
+.active-first-number{
+	color: white;
+
+}
+
+.first-global-line{
+	width: 75px;
+	height: 3px;
+	background: white;
+}
+
+
+.second-global-line{
+	width: 32.5px;
+	height: 3px;
+	background: white;
+	margin-left: calc(97% - 32.5px);
+	margin-top: calc(4% - 3px);
+}
+
+
+.third-global-line{
+width: 32.5px;
+	height: 3px;
+	background: white;
+	margin-left: calc(97% - 32.5px);
+	margin-top: calc(4% - 3px);	
+}
+
+
+.fourth-global-line{
+	width: 32.5px;
+	height: 3px;
+	background: white;
+	margin-left: calc(97% - 32.5px);
+	margin-top: calc(4% - 3px);	
+
+}
+
+
+
+.main-design{
+	color: white;
+	margin-top: 20%;
+	font-size: 115px;
+	margin-left: 10%;
+	font-family: "Trump Gothic West";
+
+}
+
+
+
+
+/* CASES ITVM */
+
+
+
+.itvm-all-cases{
+}
+
+.main-name-cases{
+	color: #808080;
+	margin-left: 15%;
+opacity: 0.2;
+color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 75px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 5.63px;
+white-space: pre;
+}
+
+
+
+
+.first-case-itvm{
+	width: 81.5%;
+	float: left;
+	height: 450px;
+	background: #808080;
+	border: solid 5px white;
+	margin-left: 15%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.first-case-app{
+color: white;
+margin-left: 15%;
+font-size: 25px;
+margin-top: 300px;
+color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 36px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "app name" */
+letter-spacing: 2.7px;
+}
+
+.first-case-line{
+color: white;
+width: auto;
+height: 3px;
+background: white;
+margin-left: 15%;
+}
+
+
+.first-case-discover{
+	color: white;
+	margin-left: 15%;
+	margin-top: 25px;
+	color: #ffffff;
+font-family: Theinhardt;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+
+
+
+.second-case-itvm{
+	width: 96.5%;
+	text-align: center;
+	height: 217px;
+	background: white;
+}
+
+
+.second-case-dublicate{
+	margin-top: 16px;
+	width: 96.5%;
+	text-align: center;
+	height: 217px;
+	background: white;
+
+}
+
+
+.second-case-line{
+	margin-top: 15px;
+	height: 35px;
+	width: 2px;
+	color: white;
+background: white;
+	text-align: center;
+	margin-left: 50%;
+}
+
+
+.second-case-view{
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+	color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 1.35px;
+}
+
+
+.third-case-itvm{
+
+width: 95%;
+	text-align: center;
+	height: 450px;
+	background: white;
+
+}
+
+
+
+
+
+
+/* WHATS WE DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+.whats-we-do{
+}
+
+
+
+
+.whats-do-name{
+	opacity: 0.2;
+color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 75px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "W, HAT WE" */
+letter-spacing: 5.63px;
+}
+
+
+.web-development{
+	color: white;
+	white-space: pre;
+	cursor: pointer;
+	color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "web develo" */
+letter-spacing: 1.5px;
+}
+
+.mob-development{
+	color: white;
+	white-space: pre;
+	cursor: pointer;
+	color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "web develo" */
+letter-spacing: 1.5px;
+
+}
+
+
+.desktop-development{
+	color: white;
+	white-space: pre;
+	cursor: pointer;
+	color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "web develo" */
+letter-spacing: 1.5px;
+}
+
+
+
+.line1 .line2:hover{
+	border-bottom: 2px solid maroon;
+}
+
+
+
+
+
+
+
+.whats-page-spisok{
+	display: flex;
+	flex-direction: column;s
+}
+
+.whats-page-first {
+    width: 32.5px;
+    height: 3px;
+    background: white;
+    margin-top: 50%;
+  margin-left: calc(90% - 32.5px);
+}
+
+.whats-page-second{
+	  width: 32.5px;
+    height: 3px;
+    background: white;
+    margin-top: 10%;
+   margin-left: calc(90% - 32.5px);
+}
+
+
+.whats-page-third-number{
+	color: white;
+    margin-left: calc(90% - 75px);
+}
+
+.whats-page-third {
+    width: 75px;
+    height: 3px;
+    background: white;
+    margin-left: calc(90% - 75px);
+}
+
+.whats-page-fourth{
+	 width: 32.5px;
+    height: 3px;
+    background: white;
+    margin-top: 10%;
+   margin-left: calc(90% - 32.5px);
+
+}
+
+
+
+/* CONTACN US */
+
+
+.contact-us{
+}
+
+
+.visit-office{
+	opacity: 0.2;
+color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "v, isit ou" */
+letter-spacing: 5.63px;
+
+}
+
+.write-us-hello{
+		opacity: 0.2;
+color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "v, isit ou" */
+letter-spacing: 5.63px;
+
+}
+
+
+.visit-second-section{
+	margin-top: 5%;
+}
+
+
+.map-visit{
+}
+
+
+.send-messange{
+
+}
+
+
+.login-input{
+	background: black;
+	width: 80%;
+}
+
+[type=search] {
+    outline-offset: -2px;
+    -webkit-appearance: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+    border: solid 2px #b3b3cc;
+    height: 60px;
+    opacity: 0.5;
+color: #ffffff;
+font-family: Theinhardt;
+font-size: 18px;
+font-weight: 300;
+text-transform: uppercase;
+/* Text style for "Email" */
+letter-spacing: 1.35px;
+
+}
+
+.send-login{
+	width: 100%;
+	height: 3%;
+}
+
+
+.mail-input{
+	background: black;
+	width: 100%;
+	margin-top: 3%;
+
+}
+
+.send-mail{
+	width: 80%;
+	height: 3%;
+
+}
+
+
+.mess{
+	width: 100%;
+	background: black;
+	color: white;
+	border: solid 2px #b3b3cc;
+padding-left: 5px;
+padding-top: 3px;
+}
+
+
+
+textarea{
+	background-color: #ffffff;
+opacity: 0.4;
+color: #ffffff;
+font-family: Theinhardt;
+font-size: 18px;
+font-weight: 300;
+text-transform: uppercase;
+/* Text style for "Write your" */
+letter-spacing: 1.35px;
+}
+
+
+.messange{
+	width: 80%;
+	margin-top: 3%;
+}
+
+
+.more-info{
+	display: flex;
+	flex-direction: row;
+	margin-top: 3%;
+}
+
+.send-info {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 30px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 2.25px;
+background: #0056b8;
+padding: 0 44px;
+text-align: center;
+padding-top: 2px;
+}
+
+.button{
+ text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ color: #ffffff;
+font-family: "Trump Gothic West";
+font-size: 30px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "send" */
+letter-spacing: 2.25px;
+ color: white; 
+ background: #0056b8;  
+  }
+
+
+.button:hover{
+	color: white;
+	text-decoration: none;
+}
